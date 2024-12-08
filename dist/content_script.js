@@ -184,6 +184,9 @@ var handleKeyDownEventForWordTestPage = function (event) {
         case 'ArrowUp':
             clickComentaryButton();
             break;
+        case 'ArrowDown':
+            clickPlaybackButton();
+            break;
         case 'Space':
             clickPlaybackButton();
             break;
